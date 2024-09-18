@@ -19,11 +19,9 @@ This app can be installed with `pipx`, `pip`, or `poetry`. Instructions are prov
 ## Pipx instructions
 NOTE: I'm not yet sure how easy it is to update the app when installing via `pipx`. It might be fine, I'll have to test it.
 
-1. Clone the repository and `cd` into it
-    - `git clone git@github.com:naimenz/logviz.git && cd logviz`
-2. [Install `pipx`](https://github.com/pypa/pipx?tab=readme-ov-file#install-pipx)
-3. Install `logviz` with `pipx`
-    - `pipx install .`
+1. [Install `pipx`](https://github.com/pypa/pipx?tab=readme-ov-file#install-pipx)
+2. Install `logviz` with `pipx`
+    - `pipx install git+https://github.com/naimenz/logviz.git`
 
 ## Pip instructions
 1. Clone the repository and `cd` into it
